@@ -97,7 +97,111 @@ table(survey$ShortArea, survey$FrequencyImpact)
   MOD                                                        2
   HIGH                                                       0
 > 
-
+> table(catkap$e.kappa,catkap$longarea)
+      
+       IT, Legal, HR, Finance Operations (Boudreau) Pre-Sales (White) Product - Architecture (Stokoz)
+  LOW                       4                     1                 2                               1
+  MOD                       0                     0                 4                               0
+  HIGH                      0                     2                 0                               0
+      
+       Product - Engineering/STO (Tan) Product - Product Management (Kanani) Sales - BDR (Blake) Sales - EMEA (Berry)
+  LOW                               16                                     3                   1                    2
+  MOD                                1                                     2                   2                    0
+  HIGH                               0                                     0                   0                    0
+      
+       Sales - Enterprise (Fitz) Sales - SME/MM (Kuras) Services - Customer Success (Pederson)
+  LOW                          0                      3                                      4
+  MOD                          6                      9                                      0
+  HIGH                         1                      0                                      0
+      
+       Services - Customer Support (Sullivan) Services - Global Services (Soro) Services - Operations (Craig-Welk)
+  LOW                                      10                                 9                                  0
+  MOD                                       0                                 7                                  0
+  HIGH                                      1                                 2                                  1
+      
+       Strategy/Partners/Marketing (Vrsic/Duda/Gaddis/Waggott)
+  LOW                                                        3
+  MOD                                                        1
+  HIGH                                                       1
+> table(catkap$hs.kappa,catkap$longarea)
+      
+       IT, Legal, HR, Finance Operations (Boudreau) Pre-Sales (White) Product - Architecture (Stokoz)
+  LOW                       4                     1                 1                               1
+  MOD                       0                     2                 5                               0
+  HIGH                      0                     0                 0                               0
+      
+       Product - Engineering/STO (Tan) Product - Product Management (Kanani) Sales - BDR (Blake) Sales - EMEA (Berry)
+  LOW                               14                                     2                   0                    1
+  MOD                                3                                     3                   3                    1
+  HIGH                               0                                     0                   0                    0
+      
+       Sales - Enterprise (Fitz) Sales - SME/MM (Kuras) Services - Customer Success (Pederson)
+  LOW                          5                      6                                      2
+  MOD                          2                      5                                      2
+  HIGH                         0                      1                                      0
+      
+       Services - Customer Support (Sullivan) Services - Global Services (Soro) Services - Operations (Craig-Welk)
+  LOW                                       8                                12                                  0
+  MOD                                       3                                 6                                  1
+  HIGH                                      0                                 0                                  0
+      
+       Strategy/Partners/Marketing (Vrsic/Duda/Gaddis/Waggott)
+  LOW                                                        4
+  MOD                                                        1
+  HIGH                                                       0
+> table(catkap$q.kappa,catkap$longarea)
+      
+       IT, Legal, HR, Finance Operations (Boudreau) Pre-Sales (White) Product - Architecture (Stokoz)
+  LOW                       2                     3                 0                               0
+  MOD                       1                     0                 5                               1
+  HIGH                      1                     0                 1                               0
+      
+       Product - Engineering/STO (Tan) Product - Product Management (Kanani) Sales - BDR (Blake) Sales - EMEA (Berry)
+  LOW                               16                                     2                   1                    2
+  MOD                                1                                     3                   1                    0
+  HIGH                               0                                     0                   1                    0
+      
+       Sales - Enterprise (Fitz) Sales - SME/MM (Kuras) Services - Customer Success (Pederson)
+  LOW                          2                      1                                      4
+  MOD                          4                      4                                      0
+  HIGH                         1                      7                                      0
+      
+       Services - Customer Support (Sullivan) Services - Global Services (Soro) Services - Operations (Craig-Welk)
+  LOW                                      10                                 6                                  1
+  MOD                                       1                                11                                  0
+  HIGH                                      0                                 1                                  0
+      
+       Strategy/Partners/Marketing (Vrsic/Duda/Gaddis/Waggott)
+  LOW                                                        2
+  MOD                                                        1
+  HIGH                                                       2
+> table(catkap$s.kappa,catkap$longarea)
+      
+       IT, Legal, HR, Finance Operations (Boudreau) Pre-Sales (White) Product - Architecture (Stokoz)
+  LOW                       3                     2                 1                               0
+  MOD                       0                     1                 2                               0
+  HIGH                      1                     0                 3                               1
+      
+       Product - Engineering/STO (Tan) Product - Product Management (Kanani) Sales - BDR (Blake) Sales - EMEA (Berry)
+  LOW                               10                                     3                   2                    1
+  MOD                                5                                     0                   0                    0
+  HIGH                               2                                     2                   1                    1
+      
+       Sales - Enterprise (Fitz) Sales - SME/MM (Kuras) Services - Customer Success (Pederson)
+  LOW                          4                      4                                      3
+  MOD                          1                      1                                      0
+  HIGH                         2                      7                                      1
+      
+       Services - Customer Support (Sullivan) Services - Global Services (Soro) Services - Operations (Craig-Welk)
+  LOW                                       7                                 8                                  1
+  MOD                                       2                                 4                                  0
+  HIGH                                      2                                 6                                  0
+      
+       Strategy/Partners/Marketing (Vrsic/Duda/Gaddis/Waggott)
+  LOW                                                        4
+  MOD                                                        1
+  HIGH                                                       0
+  
 
 ## COUNTS BY SOURCE OF INFORMATION
 
